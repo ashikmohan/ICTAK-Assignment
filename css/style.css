@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: ;
+    background-image: url(../images/1799668.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+header{
+    
+    height: 80px;
+}
+nav{
+   float: right;
+   margin-top: 30px;
+   margin-right: 200px;
+   
+   padding: 20px;
+   
+
+}
+nav a{
+    
+    border-radius: 200px;
+    padding: 15px;
+    margin-top: 90px;
+    margin-right: 75px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0913EC;
+   
+
+}
+nav a:hover{
+    color: rgb(235, 15, 92);
+    background-color: lightblue;
+    padding: 20px;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.moving-text{
+
+    margin-top: 70px;
+    font-size: 50px;
+    color: #810CA1;
+    
+}
+.moving-text:hover{
+            animation-play-state: paused;
+}
+@keyframes marquee{
+            100%{transform: translateX(-100%);}
+            0%{transform: translateX(100%);}
+        }
+ @media (prefers-reduced-motion: no-preference) {
+            .moving-text{
+                animation: marquee 30s linear infinite
+            }
+        }
+#hello{
+    font-size: 60px;
+    color: #810CA1;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#about{
+    margin-top: 300px;
+    margin-left: 60px;
+}
+#me{
+    font-size: 45px;
+    color:#2360EA;
+    
+}
+#para{
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+#Education{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+#ed{
+    font-size: 45px;
+    color: #2360EA;
+}
+.table,td,th{
+    border: 2px outset #367AB9;
+    padding: 25px;
+}
+#Skills{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#sk{
+    font-size: 45px;
+    color: #2360EA;
+}
+#ul{
+    font-size: 20px;
+    margin-left: 45px;
+}
+#Achievements{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#ach{
+    font-size: 45px;
+    color: #2360EA;
+}
+#ncc{
+    font-size: 20px;
+    margin-left: 45px;
+}
+#Contact{
+   text-align: left;
+   margin-top: 90px;
+   margin-left: 60px;
+   
+}
+#con{
+    font-size: 45px;
+    color:#2360EA ;
+
+}
+#forma{
+    padding: 50px;
+    text-align: left;
+    
+
+}
+input[type=text],[type=number], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+textarea,select{
+
+   width: 42.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 150px;
+  }
+
+.main-info {
+    text-decoration: none;
+}
+.main-footer {
+    text-decoration: none;
+    text-align: center;
+}
+  
+#p{
+    text-align: center;
+    font-size: 20px;
+}
+#hr{
+   margin-left: 750px;
+    text-decoration: none;
+}
